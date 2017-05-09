@@ -5,6 +5,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
 }
 
 .flex-container {
@@ -20,6 +21,8 @@ header {
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  padding-top: 0;
 }
 
 header img {
@@ -40,6 +43,50 @@ a {
 nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+
+.main-content {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+#monthly {
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+h4 {
+  margin: 0;
+}
+
+.monthly-gallery {
+  padding: 5px;
+}
+
+.monthly-option img {
+  height: 200px;
+  margin: 10px;
+  display: block;
 }
 
 footer {
